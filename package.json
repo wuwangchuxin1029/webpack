@@ -1,0 +1,30 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --progress --color --config config/webpack.dev.js",
+    "build": "cross-env NODE_ENV=production webpack --color --profile --progress --config config/webpack.build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^4.1.0",
+    "node-less": "^1.0.0",
+    "node-sass": "^4.8.3",
+    "react": "^16.3.2",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
